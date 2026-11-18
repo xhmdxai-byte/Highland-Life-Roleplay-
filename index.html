@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Highland Life Roleplay – Panduan Server SA:MP</title>
+<link rel="icon" href="assets/logo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="nav"><div class="wrap">
+  <a class="brand" href="#top" aria-label="Highland Life Roleplay"><img src="assets/logo.jpg" alt="Logo Highland Life Roleplay"></a>
+  <nav aria-label="Menu utama"><a href="#top">Home</a><a href="#galeri">Gallery</a><a href="#kontak">Support</a><a href="#tentang">Tentang</a></nav>
+</div></header>
+
+<main id="top">
+<div class="hero"><div class="wrap">
+  <h1 class="reveal">Highland Life Roleplay</h1>
+  <p class="lead reveal">Panduan resmi untuk pemain baru server SA:MP Highland Life Roleplay. Baca rules, pahami cara bermain, lalu masuk ke kota.</p>
+  <div class="ip reveal"><div><small>IP Server</small><code id="ipText">…</code></div><button class="btn" id="copyBtn" type="button">Salin IP</button></div>
+  <div class="row reveal"><a class="btn ghost" id="dcHero" target="_blank" rel="noopener">Masuk Discord</a><a class="btn ghost" href="#rules">Baca rules</a></div>
+</div>
+<svg class="ridge" viewBox="0 0 1200 140" preserveAspectRatio="none" aria-hidden="true"><path d="M0 90 L160 40 L300 80 L470 20 L640 85 L820 35 L1000 80 L1200 30 V140 H0Z"/><path d="M0 110 L200 70 L380 105 L560 60 L760 110 L960 65 L1200 105 V140 H0Z"/><path d="M0 130 L240 105 L520 128 L800 100 L1040 126 L1200 112 V140 H0Z"/></svg>
+</div>
+
+<section id="tentang"><div class="wrap"><h2 class="reveal">Tentang</h2><p class="sub reveal">Highland Life Roleplay adalah server SA:MP bergenre roleplay. Situs ini dibuat khusus untuk edukasi, supaya pemain baru memahami server sebelum bermain.</p><div class="terms"><div class="term reveal"><b>Server roleplay</b><p>Pemain memerankan karakter dan menjalani kehidupan di dalam kota.</p></div><div class="term reveal"><b>Situs edukasi</b><p>Berisi rules, aturan bermain, dan panduan bergabung.</p></div><div class="term reveal"><b>Komunitas</b><p>Pengumuman dan bantuan staf ada di Discord Highland Life Roleplay.</p></div></div></div></section>
+
+<section id="gabung"><div class="wrap">
+  <h2 class="reveal">Cara bergabung</h2>
+  <p class="sub reveal">Empat langkah dari nol sampai masuk server.</p>
+  <ol class="steps reveal">
+    <li><b>Siapkan game</b><span>Pasang GTA San Andreas dan SA:MP versi yang didukung server.</span></li>
+    <li><b>Masuk Discord</b><span>Bergabung ke Highland Life Roleplay dan baca channel informasi.</span></li>
+    <li><b>Daftar karakter</b><span>Ikuti proses registrasi yang diumumkan di Discord.</span></li>
+    <li><b>Connect</b><span>Salin IP di atas, tambahkan ke favorites SA:MP, lalu join.</span></li>
+  </ol>
+</div></section>
+
+<section id="rules"><div class="wrap">
+  <h2 class="reveal">Rules server</h2>
+  <p class="sub reveal">Ketuk tiap kategori untuk membaca. Semua pemain wajib mematuhinya.</p>
+  <div id="rulesList" class="reveal"></div>
+  <p class="note reveal">Rules dapat diperbarui sewaktu-waktu. Pengumuman terbaru selalu ada di Discord, dan rules di sana yang berlaku.</p>
+</div></section>
+
+<section id="istilah"><div class="wrap">
+  <h2 class="reveal">Aturan bermain</h2>
+  <p class="sub reveal">Istilah yang sering muncul di roleplay. Hafalkan sebelum bermain supaya tidak kena sanksi.</p>
+  <div class="terms" id="terms"></div>
+</div></section>
+
+<section id="galeri"><div class="wrap">
+  <h2 class="reveal">Gallery</h2>
+  <p class="sub reveal">Suasana kota dan komunitas Highland. Ketuk foto untuk memperbesar.</p>
+  <div class="gallery reveal" id="gallery"></div>
+</div></section>
+
+<section id="kontak"><div class="wrap">
+  <h2 class="reveal">Support</h2>
+  <p class="sub reveal">Butuh bantuan atau ada pertanyaan soal server? Hubungi lewat salah satu jalur ini.</p>
+  <div class="contact">
+    <div class="card reveal"><h3>Discord Highland Life Roleplay</h3><p>Pengumuman, bantuan staf, dan komunitas pemain.</p><a class="btn" id="dcCard" target="_blank" rel="noopener">Gabung Discord</a></div>
+    <div class="card reveal"><h3>WhatsApp</h3><p>Tanya langsung ke pengelola server.</p><a class="btn" id="waCard" target="_blank" rel="noopener">Chat WhatsApp</a></div>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="wrap">© Highland Roleplay. Situs edukasi resmi, bukan pengganti rules di Discord.</div></footer>
+
+<dialog id="dlg" aria-label="Pratinjau foto"><div class="lb" id="lb"></div></dialog>
+
+<script src="js/script.js"></script>
+</body>
+</html>
